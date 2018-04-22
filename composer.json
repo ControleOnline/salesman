@@ -1,0 +1,22 @@
+{
+    "name": "controleonline/salesman",
+    "description": "Controle Online - Salesman Module",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "Salesman"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Salesman\\": "src/Salesman"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    },
+    "homepage": "https://github.com/ControleOnline/Salesman",
+    "require": {
+        "controleonline/core": "*",
+        "controleonline/user": "*",
+        "controleonline/company": "*"
+    }    
+}
